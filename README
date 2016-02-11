@@ -1,0 +1,9 @@
+Moves Redis cluster hash slots. 
+
+Usage:
+./redis-shard.sh <src-ip> <src-port> <dest-ip> <dest-port> <hslot-start> <hslot-end>
+
+Example Usage:
+./redis-shard.sh 1.1.1.1 1000 2.2.2.2 2000 1 1000
+
+./redis-shard.sh 1.1.1.1 1000 2.2.2.2 2000 1000 1000
